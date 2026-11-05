@@ -19,12 +19,12 @@ class Producto:
 
     def mostrar_informacion(self):
         """Muestra la información del producto en pantalla."""
-        print("Información del producto")
+        print("Información del ")
         print("------------------------")
-        print(f"Código:      {self.codigo}")
+        print(f"Código:      {self.nombre}")
         print(f"Nombre:      {self.nombre}")
-        print(f"Precio:      {self.precio}")
-        print(f"Existencia:  {self.existencia}")
+        print(f"Precio:      {self.nombre}")
+        print(f"Existencia:  {self.nombre}")
 
 
 if __name__ == "__main__":
